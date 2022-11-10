@@ -1,0 +1,80 @@
+{
+  "bebestibles": [
+    {
+      "id": "A1",
+      "name": "Café Americano",
+      "badge": "$",
+      "price": 2500
+    },
+    {
+      "id": "A2",
+      "name": "Café con leche",
+      "badge": "$",
+      "price": 3000
+    },
+
+    {
+      "id": "A3",
+      "name": "Jugo natural",
+      "badge": "$",
+      "price": 4000
+    },
+    {
+      "id": "A4",
+      "name": "Bebida",
+      "badge": "$",
+      "price": 1600
+    },
+    {
+      "id": "A5",
+      "name": "Cerveza",
+      "badge": "$",
+      "price": 3300
+    },
+    {
+      "id": "A6",
+      "name": "Agua mineral con gas",
+      "badge": "$",
+      "price": 1100
+    },
+    {
+      "id": "A6",
+      "name": "Agua mineral sin gas",
+      "badge": "$",
+      "price": 1100
+    }
+  ],
+
+  "platos": [
+    {
+      "id": "B1",
+      "name": "Bandido Simple",
+      "badge": "$",
+      "price": 5500
+    },
+    {
+      "id": "B2",
+      "name": "Bandido doble",
+      "badge": "$",
+      "price": 6500
+    },
+    {
+      "id": "B3",
+      "name": "Papas fritas",
+      "badge": "$",
+      "price": 3500
+    },
+    {
+      "id": "B4",
+      "name": "Aritos de Cebolla",
+      "badge": "$",
+      "price": 4000
+    },
+    {
+      "id": "B5",
+      "name": "Bandido Planchado",
+      "badge": "$",
+      "price": 5.0
+    }
+  ]
+}
