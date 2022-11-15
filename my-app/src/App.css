@@ -1,38 +1,112 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  background-color: #bec5ad;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #34252f;
+}
+/*Login y Register*/
+.formContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12%;
+  margin-right: 7%;
+}
+.input {
+  width: 40vw;
+  height: 6vh;
+  background: #e4e4e4;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 6%;
+}
+.inputLabel {
+  font-weight: 500;
+}
+.formTitle {
+  font-size: 40px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainButton {
+  font-weight: 600;
+  color: #f1efdc;
+  border: none;
+  width: 27vw;
+  height: 9vh;
+  background: #3b5249;
+  border-radius: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.bottomText {
+  font-size: 16px;
+  font-weight: 500;
+}
+.linkText {
+  color: #519872;
+  font-size: 16px;
+}
+/*Alert*/
+.alertMessage {
+  color: rgb(228, 58, 32);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*Menu*/
+.homeContainer {
+  display: grid;
+}
+.logoutButton {
+  border: none;
+  margin-left: 80%;
+  margin-top: 3%;
+}
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.menuChoice {
+  font-weight: 400;
+  color: #f1efdc;
+  border: none;
+  width: 20vw;
+  height: 7vh;
+  background: #34252f;
+  border-radius: 40px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
-
-.App-link {
-  color: #61dafb;
+.content {
+  display: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.active-content {
+  display: block;
+}
+.tabs {
+  font-weight: 600;
+  color: #f1efdc;
+  border: none;
+  width: 27vw;
+  height: 9vh;
+  background: #3b5249;
+  border-radius: 40px;
+}
+.active-tabs {
+  font-weight: 600;
+  color: #f1efdc;
+  border: none;
+  width: 27vw;
+  height: 9vh;
+  background: #519872;
+  border-radius: 40px;
 }

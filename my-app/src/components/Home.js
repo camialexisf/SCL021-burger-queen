@@ -1,8 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/authContext";
+import { MenuOptions } from "./menuOptions";
+/* import { Breakfast } from "./Breakfast";
+import { Lunch } from "./Lunch"; */
+import logoutIcon from "./img/logoutIcon.png";
+import React from "react";
 
 export default function Home() {
-  const { user, logout, loading } = useAuth();
+  /*Aqui falta user, recordar en caso de que provoque errores a futuro */
+  const { logout, loading } = useAuth();
   const navigate = useNavigate();
 
   const handleLogout = async () => {
@@ -10,10 +16,16 @@ export default function Home() {
     navigate("/login");
   };
   if (loading) return <h1>Cargando...</h1>;
+
   return (
-    <div>
-      <h1>Bienvenido {user.email}</h1>
-      <button onClick={handleLogout}>Cerrar sesion</button>
+    <div className="homeContainer">
+      <button onClick={handleLogout} className="logoutButton">
+        {" "}
+        <img src={logoutIcon} alt="logoBandido" />
+        <br></br>
+        Cerrar sesion
+      </button>
+      <MenuOptions />
     </div>
   );
 }

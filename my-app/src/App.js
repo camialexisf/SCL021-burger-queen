@@ -1,15 +1,15 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
 import Home from "./components/Home";
 import LogIn from "./components/LogIn";
 import { ProtectedRoute } from "./components/ProtectedRoute";
 import Register from "./components/Register";
 import { AuthProvider } from "./context/authContext";
+import "./App.css";
 
 function App() {
   return (
-    <div className="bg-slate-300 h-screen text-black">
+    <div className="bg-red-500 h-screen text-black">
       <AuthProvider>
         <Routes>
           <Route

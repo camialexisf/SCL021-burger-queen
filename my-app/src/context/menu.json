@@ -1,5 +1,5 @@
 {
-  "bebestibles": [
+  "breakfast": [
     {
       "id": "A1",
       "name": "Café Americano",
@@ -21,31 +21,12 @@
     },
     {
       "id": "A4",
-      "name": "Bebida",
+      "name": "Bandido Planchado",
       "badge": "$",
-      "price": 1600
-    },
-    {
-      "id": "A5",
-      "name": "Cerveza",
-      "badge": "$",
-      "price": 3300
-    },
-    {
-      "id": "A6",
-      "name": "Agua mineral con gas",
-      "badge": "$",
-      "price": 1100
-    },
-    {
-      "id": "A6",
-      "name": "Agua mineral sin gas",
-      "badge": "$",
-      "price": 1100
+      "price": 2300
     }
   ],
-
-  "platos": [
+  "lunch": [
     {
       "id": "B1",
       "name": "Bandido Simple",
@@ -68,13 +49,31 @@
       "id": "B4",
       "name": "Aritos de Cebolla",
       "badge": "$",
-      "price": 4000
+      "price": 3800
     },
     {
       "id": "B5",
-      "name": "Bandido Planchado",
+      "name": "Bebida",
       "badge": "$",
-      "price": 5.0
+      "price": 1800
+    },
+    {
+      "id": "B6",
+      "name": "Cerveza",
+      "badge": "$",
+      "price": 3300
+    },
+    {
+      "id": "B7",
+      "name": "Agua con gas",
+      "badge": "$",
+      "price": 1600
+    },
+    {
+      "id": "B8",
+      "name": "Agua sin gas",
+      "badge": "$",
+      "price": 1600
     }
   ]
 }
